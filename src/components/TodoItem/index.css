@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.todoitem-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+}
+
+.list-para {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: Roboto;
+}
+
+.button {
+  color: #ff0b37;
+  font-family: roboto;
+  font-size: 11px;
+  background-color: #ffffff;
+  border: 2px solid #ff0b37;
+  border-radius: 7px;
+  padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .list-para {
+    font-size: 23px;
+  }
+  .todoitem-list {
+    margin: 10px;
+  }
+  .button {
+    font-size: 20;
+    padding: 10px;
+  }
+}
